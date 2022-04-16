@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 140%;
+   font-weight: 400;
+   color: #1F1E1E;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.header {
+   background-image: url(../images/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+}
+
+.container {
+   max-width: 1140px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+.header__inner {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.header__top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 16px 0 49px;
+}
+
+.logo {
+}
+.logo__img {
+}
+
+.header__phone {
+   font-size: 16px;
+   line-height: 130%;
+   color: #fff;
+   font-weight: 700;
+}
+
+.header__phone-number {
+   font-weight: 400;
+   margin-left: 19px;
+   padding: 12px 31px 13px;
+   background-color: #886239;
+   border-radius: 22px;
+}
+
+.menu {
+   width: 100%;
+
+
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__title {
+   font-family: 'PT Serif', serif;
+}
+.header__content {
+}
+.header__descr {
+}
+.header__btn {
+}
+.header__arrow {
+}
+.header__arrow-link {
+}
+.header__arrow-img {
+}

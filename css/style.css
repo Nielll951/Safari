@@ -17,6 +17,10 @@ a {
    color: inherit;
 }
 
+button {
+   cursor: pointer;
+}
+
 .title {
    font-size: 36px;
    line-height: 130%;
@@ -296,3 +300,48 @@ a {
 }
 .img {
 }
+
+.gallery {
+   padding: 50px 0 105px;
+   background: #886239;
+   color: #fff;
+}
+
+.gallery__top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   padding-right: 160px;
+}
+.gallery__title {
+}
+.title {
+}
+.gallery__link {
+   text-decoration: underline;
+}
+.gallery__slider {
+}
+.gallery__item {
+}
+.gallery__item-inner {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 32px;
+}
+.gallery__item-link {
+}
+
+.slick-btn {
+   background-color: transparent;
+   border: none;
+   position: absolute;
+   top: -85px;
+   right: 0;
+}
+
+.slick-prev {
+   right: 60px;
+}
+
